@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="1. 아이콘을 누른다."
+            android:textSize="20dp"/>
+
+        <ImageView
+            android:layout_width="370dp"
+            android:layout_height="250dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/btn1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="2. 아이콘을 누른다."
+            android:textSize="20dp"/>
+
+        <ImageView
+            android:layout_width="370dp"
+            android:layout_height="250dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/btn1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="동영상"
+            android:textSize="20dp"/>
+
+        <ImageView
+            android:layout_width="370dp"
+            android:layout_height="250dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/btn1"/>
+
+        <Button
+            android:layout_width="370dp"
+            android:layout_height="70dp"
+            android:background="@drawable/btn2"
+            android:text="모르는 점 질의하기"
+            android:textColor="#fff"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
