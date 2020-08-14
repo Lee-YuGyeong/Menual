@@ -18,7 +18,7 @@
             android:textSize="20dp"/>
 
         <ImageView
-            android:layout_width="370dp"
+            android:layout_width="match_parent"
             android:layout_height="250dp"
             android:layout_marginBottom="20dp"
             android:src="@drawable/btn1"/>
@@ -31,7 +31,7 @@
             android:textSize="20dp"/>
 
         <ImageView
-            android:layout_width="370dp"
+            android:layout_width="match_parent"
             android:layout_height="250dp"
             android:layout_marginBottom="20dp"
             android:src="@drawable/btn1"/>
@@ -44,13 +44,13 @@
             android:textSize="20dp"/>
 
         <ImageView
-            android:layout_width="370dp"
+            android:layout_width="match_parent"
             android:layout_height="250dp"
             android:layout_marginBottom="20dp"
             android:src="@drawable/btn1"/>
 
         <Button
-            android:layout_width="370dp"
+            android:layout_width="match_parent"
             android:layout_height="70dp"
             android:background="@drawable/btn2"
             android:text="모르는 점 질의하기"
