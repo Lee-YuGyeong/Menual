@@ -17,6 +17,7 @@ public class ListActivity extends AppCompatActivity {
 
     ListView listView;
     ListAdapter adapter;
+    int btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,15 +25,16 @@ public class ListActivity extends AppCompatActivity {
         setContentView(R.layout.activity_list);
 
         Intent intent = getIntent();
-        int btn = intent.getExtras().getInt("btn");
+        btn = intent.getExtras().getInt("btn");
 
         adapter = new ListAdapter();
 
         listView = findViewById(R.id.listView);
         listView.setAdapter(adapter);
+        int i;
 
         if(btn == 1) {
-            adapter.addData("연락처 추가하기",ContextCompat.getDrawable(this, R.drawable.phone_2));
+            adapter.addData("연락처 추가하기",ContextCompat.getDrawable(this, R.drawable.phone_2)) ;
             adapter.addData("전화하기",ContextCompat.getDrawable(this, R.drawable.phone_2));
             adapter.addData("통화내용 녹음하기",ContextCompat.getDrawable(this, R.drawable.phone_2));
 
@@ -73,8 +75,11 @@ public class ListActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
                 Intent intent = new Intent(getApplicationContext(), DetailActivity.class);
+                intent.putExtra("btn",btn);
+                intent.putExtra("btn2",position);
                 startActivity(intent);
-            }
+
+        }
         });
     }
 
