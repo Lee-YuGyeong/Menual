@@ -58,23 +58,29 @@ public class DetailActivity extends AppCompatActivity {
 
             if(btn2 == 0){
 
-                adapter.addData("1.누르기", ContextCompat.getDrawable(this, R.drawable.mail_2));
-                adapter.addData("2.닫기",ContextCompat.getDrawable(this, R.drawable.mail_2));
-                adapter.addData("3. ㅋㅋ",ContextCompat.getDrawable(this, R.drawable.mail_2));
+                adapter.addData("1.바탕화면에서 메세지 아이콘을 눌러줍니다.", ContextCompat.getDrawable(this, R.drawable.mail1_1));
+                adapter.addData("2.상대방의 전화번호나 이름을 적어줍니다.",ContextCompat.getDrawable(this, R.drawable.mail1_2));
+                adapter.addData("3.보낼메세지를 입력합니다.",ContextCompat.getDrawable(this, R.drawable.mail1_3));
+                adapter.addData("4.보내기 버튼을 눌러줍니다.",ContextCompat.getDrawable(this, R.drawable.mail1_5));
+                adapter.addData("5.보낸 메세지를 확인합니다.",ContextCompat.getDrawable(this, R.drawable.mail1_4));
 
             }else if(btn2 == 1){
 
-                adapter.addData("1.누르기", ContextCompat.getDrawable(this, R.drawable.mail_2));
-                adapter.addData("2.닫기",ContextCompat.getDrawable(this, R.drawable.mail_2));
-                adapter.addData("3. ㅋㅋ",ContextCompat.getDrawable(this, R.drawable.mail_2));
-
+                adapter.addData("1.바탕화면에서 메세지 아이콘을 눌러줍니다.", ContextCompat.getDrawable(this, R.drawable.mail1_1));
+                adapter.addData("2.상대방의 전화번호나 이름을 적어줍니다.",ContextCompat.getDrawable(this, R.drawable.mail1_2));
+                adapter.addData("3.하단의 앨범 아이콘을 눌러줍니다.",ContextCompat.getDrawable(this, R.drawable.mail2_5));
+                adapter.addData("4.원하는 사진을 눌러줍니다.",ContextCompat.getDrawable(this, R.drawable.mail2_2));
+                adapter.addData("5.보내기 버튼을 눌러줍니다.",ContextCompat.getDrawable(this, R.drawable.mail2_3));
+                adapter.addData("6.보낸 사진메세지를 확인합니다.",ContextCompat.getDrawable(this, R.drawable.mail2_4));
 
             }else{
 
-                adapter.addData("1.누르기", ContextCompat.getDrawable(this, R.drawable.mail_2));
-                adapter.addData("2.닫기",ContextCompat.getDrawable(this, R.drawable.mail_2));
-                adapter.addData("3. ㅋㅋ",ContextCompat.getDrawable(this, R.drawable.mail_2));
-
+                adapter.addData("1.바탕화면에서 메세지 아이콘을 눌러줍니다.", ContextCompat.getDrawable(this, R.drawable.mail1_1));
+                adapter.addData("2.상대방의 전화번호나 이름을 적어줍니다.",ContextCompat.getDrawable(this, R.drawable.mail1_2));
+                adapter.addData("3.키보드에서 이모티콘 아이콘을 눌러줍니다.",ContextCompat.getDrawable(this, R.drawable.mail3_1));
+                adapter.addData("4.원하는 이모티콘을 눌러줍니다.",ContextCompat.getDrawable(this, R.drawable.mail3_2));
+                adapter.addData("5.보내기 버튼을 눌러줍니다.",ContextCompat.getDrawable(this, R.drawable.mail3_3));
+                adapter.addData("6.보낸 이모티콘을 확인합니다.",ContextCompat.getDrawable(this, R.drawable.mail3_4));
 
             }
 
