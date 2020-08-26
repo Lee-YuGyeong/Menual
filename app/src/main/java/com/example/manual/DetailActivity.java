@@ -32,8 +32,8 @@ public class DetailActivity extends AppCompatActivity {
 
             if(btn2 == 0){
 
-                adapter.addData("1.누르기", ContextCompat.getDrawable(this, R.drawable.phone_2));
-                adapter.addData("2.닫기",ContextCompat.getDrawable(this, R.drawable.phone_2));
+                adapter.addData("1.전화앱누르기", ContextCompat.getDrawable(this, R.drawable.call1));
+                adapter.addData("2.닫기",ContextCompat.getDrawable(this, R.drawable.call2));
                 adapter.addData("3. ㅋㅋ",ContextCompat.getDrawable(this, R.drawable.phone_2));
 
             }else if(btn2 == 1){

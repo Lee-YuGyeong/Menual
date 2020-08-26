@@ -14,9 +14,9 @@
     <ImageView
         android:id="@+id/image"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/youtube" />
-
+        android:layout_height="750dp"
+        app:srcCompat="@drawable/youtube"
+        android:scaleType="fitXY"/>
 
 
 </LinearLayout>
