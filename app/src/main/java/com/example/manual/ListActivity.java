@@ -63,9 +63,10 @@ public class ListActivity extends AppCompatActivity {
 
         }
         if(btn == 5) {
-            adapter.addData("버스/지하철 노선도",ContextCompat.getDrawable(this, R.drawable.bus_2));
-            adapter.addData("길찾기",ContextCompat.getDrawable(this, R.drawable.bus_2));
-            adapter.addData("버스/기차 예매하기",ContextCompat.getDrawable(this, R.drawable.bus_2));
+            adapter.addData("버스찾기",ContextCompat.getDrawable(this, R.drawable.bus_2));
+            adapter.addData("지하철찾기",ContextCompat.getDrawable(this, R.drawable.bus_2));
+            adapter.addData("기차 예매하기",ContextCompat.getDrawable(this, R.drawable.bus_2));
+            adapter.addData("버스 예매하기",ContextCompat.getDrawable(this, R.drawable.bus_2));
 
         }
         if(btn == 6) {

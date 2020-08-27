@@ -212,23 +212,36 @@ public class DetailActivity extends AppCompatActivity {
 
             if(btn2 == 0){
 
-                adapter.addData("1.누르기", ContextCompat.getDrawable(this, R.drawable.mail_2));
-                adapter.addData("2.닫기",ContextCompat.getDrawable(this, R.drawable.mail_2));
-                adapter.addData("3. ㅋㅋ",ContextCompat.getDrawable(this, R.drawable.mail_2));
+                adapter.addData("1.카카오버스를 다운받고 어플에 들어가줍니다.", ContextCompat.getDrawable(this, R.drawable.road1_1));
+                adapter.addData("2.버스 또는 정류장을 검색합니다.",ContextCompat.getDrawable(this, R.drawable.road1_2));
+                adapter.addData("3.원하는 정류장을 선택해 줍니다.",ContextCompat.getDrawable(this, R.drawable.road1_3));
+                adapter.addData("4.버스 정보를 확인해 줍니다.",ContextCompat.getDrawable(this, R.drawable.road1_4));
 
             }else if(btn2 == 1){
 
-                adapter.addData("1.누르기", ContextCompat.getDrawable(this, R.drawable.mail_2));
-                adapter.addData("2.닫기",ContextCompat.getDrawable(this, R.drawable.mail_2));
-                adapter.addData("3. ㅋㅋ",ContextCompat.getDrawable(this, R.drawable.mail_2));
+                adapter.addData("1.카카오버스를 다운받고 어플에 들어가줍니다.", ContextCompat.getDrawable(this, R.drawable.road2_1));
+                adapter.addData("2.왼쪽 상단 메뉴바를 선택한 후 지역설정을 합니다.",ContextCompat.getDrawable(this, R.drawable.road2_2));
+                adapter.addData("3.출발 역명을 입력합니다.",ContextCompat.getDrawable(this, R.drawable.road2_3));
+                adapter.addData("4.원하는 역을 클릭해줍니다.",ContextCompat.getDrawable(this, R.drawable.road2_4));
+                adapter.addData("5.도착지도 입력해줍니다.",ContextCompat.getDrawable(this, R.drawable.road2_5));
+                adapter.addData("6.지하철 정보를 확인해 줍니다.",ContextCompat.getDrawable(this, R.drawable.road2_6));
 
+            }else if(btn2 == 2){
 
-            }else{
+                adapter.addData("1.코레일톡 어플을 다운받고 들어가줍니다.", ContextCompat.getDrawable(this, R.drawable.road3_1));
+                adapter.addData("2.정보를 입력해줍니다.",ContextCompat.getDrawable(this, R.drawable.road3_2));
+                adapter.addData("3.원하는 기차를 선택해줍니다.",ContextCompat.getDrawable(this, R.drawable.road3_3));
+                adapter.addData("4.결제하기를 눌러 결제를 진행합니다.",ContextCompat.getDrawable(this, R.drawable.road3_4));
 
-                adapter.addData("1.누르기", ContextCompat.getDrawable(this, R.drawable.mail_2));
-                adapter.addData("2.닫기",ContextCompat.getDrawable(this, R.drawable.mail_2));
-                adapter.addData("3. ㅋㅋ",ContextCompat.getDrawable(this, R.drawable.mail_2));
+            }
+            else if(btn2 == 3){
 
+                adapter.addData("1.코레일톡 어플을 다운받고 들어가줍니다.", ContextCompat.getDrawable(this, R.drawable.road4_1));
+                adapter.addData("2.예매버튼을 클릭해줍니다.",ContextCompat.getDrawable(this, R.drawable.road4_2));
+                adapter.addData("3.정보를 입력해줍니다.",ContextCompat.getDrawable(this, R.drawable.road4_3));
+                adapter.addData("4.원하는 버스를 선택해줍니다.",ContextCompat.getDrawable(this, R.drawable.road4_4));
+                adapter.addData("5.원하는 좌석을 선택해줍니다.",ContextCompat.getDrawable(this, R.drawable.road4_5));
+                adapter.addData("6.결제를 진행합니다.",ContextCompat.getDrawable(this, R.drawable.road4_6));
 
             }
 
