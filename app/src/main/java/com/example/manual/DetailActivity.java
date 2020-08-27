@@ -4,15 +4,18 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.Button;
 import android.widget.ListView;
 
 public class DetailActivity extends AppCompatActivity {
 
     ListView listView;
     DetailListAdapter adapter;
+    Button button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +25,18 @@ public class DetailActivity extends AppCompatActivity {
         Intent intent = getIntent();
         int btn = intent.getExtras().getInt("btn");
         int btn2 = intent.getExtras().getInt("btn2");
+
+        button = findViewById(R.id.button);
+
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("http://pf.kakao.com/_RxfRlK/chat"));
+                startActivity(i);
+            }
+
+        });
+
 
         adapter = new DetailListAdapter();
 
