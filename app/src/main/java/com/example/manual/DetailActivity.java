@@ -192,9 +192,9 @@ public class DetailActivity extends AppCompatActivity {
 
             }else if(btn2 == 5){
 
-                adapter.addData("1. 나가고 싶은 채팅방에 들어가서 오른쪽 맨 위 버튼을 누릅니다.", ContextCompat.getDrawable(this, R.drawable.mail_2));
-                adapter.addData("2. 아래 화살표 버튼을 누릅니다.",ContextCompat.getDrawable(this, R.drawable.mail_2));
-                adapter.addData("3. 확인 버튼을 누릅니다.",ContextCompat.getDrawable(this, R.drawable.mail_2));
+                adapter.addData("1. 나가고 싶은 채팅방에 들어가서 오른쪽 맨 위 버튼을 누릅니다.", ContextCompat.getDrawable(this, R.drawable.k_out_1));
+                adapter.addData("2. 아래 화살표 버튼을 누릅니다.",ContextCompat.getDrawable(this, R.drawable.k_out_2));
+                adapter.addData("3. 확인 버튼을 누릅니다.",ContextCompat.getDrawable(this, R.drawable.k_out_3));
 
 
             }else{
