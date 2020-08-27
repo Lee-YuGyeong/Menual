@@ -154,43 +154,47 @@ public class DetailActivity extends AppCompatActivity {
 
             if(btn2 == 0){
 
-                adapter.addData("1.누르기", ContextCompat.getDrawable(this, R.drawable.mail_2));
-                adapter.addData("2.닫기",ContextCompat.getDrawable(this, R.drawable.mail_2));
-                adapter.addData("3. ㅋㅋ",ContextCompat.getDrawable(this, R.drawable.mail_2));
+                adapter.addData("1. 카카오 앱 아이콘을 누릅니다.", ContextCompat.getDrawable(this, R.drawable.k_chating_1));
+                adapter.addData("2. 친구 목록에서 대화하고 싶은 친구를 찾고 누릅니다.",ContextCompat.getDrawable(this, R.drawable.k_chating_2));
+                adapter.addData("3. 1:1 채팅하기 버튼을 누릅니다.",ContextCompat.getDrawable(this, R.drawable.k_chating_3));
+                adapter.addData("4. 아래 글쓰기 박스를 누릅니다.",ContextCompat.getDrawable(this, R.drawable.k_chating_4));
+                adapter.addData("5. 친구에게 보내고 싶은 메시지를 작성한 뒤 노란색 버튼을 누릅니다.",ContextCompat.getDrawable(this, R.drawable.k_chating_5));
 
             }else if(btn2 == 1){
 
-                adapter.addData("1.누르기", ContextCompat.getDrawable(this, R.drawable.mail_2));
-                adapter.addData("2.닫기",ContextCompat.getDrawable(this, R.drawable.mail_2));
-                adapter.addData("3. ㅋㅋ",ContextCompat.getDrawable(this, R.drawable.mail_2));
+                adapter.addData("1. 채팅화면에서 아래 + 버튼을 누릅니다.", ContextCompat.getDrawable(this, R.drawable.k_send_1));
+                adapter.addData("2. 앨범 버튼을 누릅니다.",ContextCompat.getDrawable(this, R.drawable.k_send_2));
+                adapter.addData("3. 아래 전체 버튼을 누릅니다.",ContextCompat.getDrawable(this, R.drawable.k_send_3));
+                adapter.addData("4. 보내고 싶은 사진을 고른 후 오른쪽 위 전송 버튼을 누릅니다.",ContextCompat.getDrawable(this, R.drawable.k_send_5));
 
 
             }else if(btn2 == 2){
 
-                adapter.addData("1.누르기", ContextCompat.getDrawable(this, R.drawable.mail_2));
-                adapter.addData("2.닫기",ContextCompat.getDrawable(this, R.drawable.mail_2));
-                adapter.addData("3. ㅋㅋ",ContextCompat.getDrawable(this, R.drawable.mail_2));
+                adapter.addData("1. 채팅화면에서 아래 이모티콘 버튼을 누릅니다.", ContextCompat.getDrawable(this, R.drawable.k_emoticon_1));
+                adapter.addData("2. 이모티콘 종류를 고릅니다.",ContextCompat.getDrawable(this, R.drawable.k_emoticon_2));
+                adapter.addData("3. 보내고 싶은 이모티콘을 누릅니다.",ContextCompat.getDrawable(this, R.drawable.k_emoticon_3));
+                adapter.addData("4. 노란색 버튼을 눌러 전송해줍니다.",ContextCompat.getDrawable(this, R.drawable.k_emoticon_4));
 
 
             }else if(btn2 == 3){
 
-                adapter.addData("1.누르기", ContextCompat.getDrawable(this, R.drawable.mail_2));
-                adapter.addData("2.닫기",ContextCompat.getDrawable(this, R.drawable.mail_2));
-                adapter.addData("3. ㅋㅋ",ContextCompat.getDrawable(this, R.drawable.mail_2));
+                adapter.addData("1. 친구 목록 맨 위 버튼을 누릅니다.", ContextCompat.getDrawable(this, R.drawable.k_add_1));
+                adapter.addData("2. 연락처로 추가 버튼을 누릅니다.",ContextCompat.getDrawable(this, R.drawable.k_add_2));
+                adapter.addData("3. 친구의 이름과 전화번호를 작성한 뒤 오른쪽 맨 위 확인 버튼을 누릅니다.",ContextCompat.getDrawable(this, R.drawable.k_add_3));
 
 
             }else if(btn2 == 4){
 
-                adapter.addData("1.누르기", ContextCompat.getDrawable(this, R.drawable.mail_2));
-                adapter.addData("2.닫기",ContextCompat.getDrawable(this, R.drawable.mail_2));
-                adapter.addData("3. ㅋㅋ",ContextCompat.getDrawable(this, R.drawable.mail_2));
+                adapter.addData("1. 친구 목록에서 차단하고 싶은 친구를 길게 누릅니다.", ContextCompat.getDrawable(this, R.drawable.k_block_1));
+                adapter.addData("2. 차단 버튼을 누릅니다.",ContextCompat.getDrawable(this, R.drawable.k_block_2));
+                adapter.addData("3. 확인 버튼을 누릅니다.",ContextCompat.getDrawable(this, R.drawable.k_block_3));
 
 
             }else if(btn2 == 5){
 
-                adapter.addData("1.누르기", ContextCompat.getDrawable(this, R.drawable.mail_2));
-                adapter.addData("2.닫기",ContextCompat.getDrawable(this, R.drawable.mail_2));
-                adapter.addData("3. ㅋㅋ",ContextCompat.getDrawable(this, R.drawable.mail_2));
+                adapter.addData("1. 나가고 싶은 채팅방에 들어가서 오른쪽 맨 위 버튼을 누릅니다.", ContextCompat.getDrawable(this, R.drawable.mail_2));
+                adapter.addData("2. 아래 화살표 버튼을 누릅니다.",ContextCompat.getDrawable(this, R.drawable.mail_2));
+                adapter.addData("3. 확인 버튼을 누릅니다.",ContextCompat.getDrawable(this, R.drawable.mail_2));
 
 
             }else{
