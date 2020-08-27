@@ -8,6 +8,7 @@
         android:id="@+id/title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#409B9A9A"
         android:text="설명"
         android:textSize="25dp" />
 
@@ -16,7 +17,9 @@
         android:layout_width="match_parent"
         android:layout_height="750dp"
         app:srcCompat="@drawable/youtube"
-        android:scaleType="fitXY"/>
+        android:scaleType="fitXY"
+        />
+
 
 
 </LinearLayout>
