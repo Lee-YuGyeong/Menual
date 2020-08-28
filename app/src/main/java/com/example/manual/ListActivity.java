@@ -45,13 +45,13 @@ public class ListActivity extends AppCompatActivity {
             adapter.addData("이모티콘 전송하기",ContextCompat.getDrawable(this, R.drawable.mail_2));
         }
         if(btn == 3){
-            adapter.addData("카메라 살펴보기",ContextCompat.getDrawable(this, R.drawable.camera_2));
-            adapter.addData("셀카 카메라로 전환하기",ContextCompat.getDrawable(this, R.drawable.camera_2));
+            //adapter.addData("카메라 살펴보기",ContextCompat.getDrawable(this, R.drawable.camera_2));
             adapter.addData("사진 촬영하기",ContextCompat.getDrawable(this, R.drawable.camera_2));
+            adapter.addData("셀카 카메라로 전환하기",ContextCompat.getDrawable(this, R.drawable.camera_2));
             adapter.addData("동영상 촬영하기",ContextCompat.getDrawable(this, R.drawable.camera_2));
             adapter.addData("사진 편집하기",ContextCompat.getDrawable(this, R.drawable.camera_2));
             adapter.addData("사진 자르기",ContextCompat.getDrawable(this, R.drawable.camera_2));
-            adapter.addData("다양한 카메라 어플 이용해보기",ContextCompat.getDrawable(this, R.drawable.camera_2));
+
         }
         if(btn == 4){
             adapter.addData("채팅하기",ContextCompat.getDrawable(this, R.drawable.kakao_2));
@@ -70,9 +70,14 @@ public class ListActivity extends AppCompatActivity {
 
         }
         if(btn == 6) {
-            adapter.addData("검색하기",ContextCompat.getDrawable(this, R.drawable.youtube_2));
-            adapter.addData("유튜브 영상 링크 공유",ContextCompat.getDrawable(this, R.drawable.youtube_2));
-            adapter.addData("댓글 쓰기",ContextCompat.getDrawable(this, R.drawable.youtube_2));
+            adapter.addData("유튜브로 영상 보기 전에 확인하기",ContextCompat.getDrawable(this, R.drawable.youtube_2));
+            adapter.addData("유튜브의 영상 구독하기",ContextCompat.getDrawable(this, R.drawable.youtube_2));
+            adapter.addData("유튜브의 영상 알람 설정하기",ContextCompat.getDrawable(this, R.drawable.youtube_2));
+            adapter.addData("유튜브의 영상 좋아요/싫어요 버튼 누르기",ContextCompat.getDrawable(this, R.drawable.youtube_2));
+            adapter.addData("유튜브의 영상에 댓글 달기",ContextCompat.getDrawable(this, R.drawable.youtube_2));
+            adapter.addData("유튜브의 영상을 고화질로 보기",ContextCompat.getDrawable(this, R.drawable.youtube_2));
+            adapter.addData("유튜브의 영상을 가로로 크게 보기",ContextCompat.getDrawable(this, R.drawable.youtube_2));
+            adapter.addData("유튜브의 영상을 가족과 친구들에게 공유하기",ContextCompat.getDrawable(this, R.drawable.youtube_2));
 
         }
 
