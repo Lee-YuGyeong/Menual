@@ -230,7 +230,7 @@ public class DetailActivity extends AppCompatActivity {
             if(btn2 == 0){
 
                 adapter.addData("1. 와이파이 설정하기: 통신사에서 제공하는 와이파이의 경우, 공유기 뒷면에 비밀번호가 스티커로 부착되어 있습니다.\n " +
-                                "와이파이 연결을 하지 않고 영사을 감상하면 데이터 요금이 나올 수도 있어요!", ContextCompat.getDrawable(this, R.drawable.youtube1_1));
+                                "와이파이 연결을 하지 않고 영상을 감상하면 데이터 요금이 나올 수도 있어요!", ContextCompat.getDrawable(this, R.drawable.youtube1_1));
                 adapter.addData("2. 와이파이 연결이 되어 있는지 확인합니다.",ContextCompat.getDrawable(this, R.drawable.youtube1_2));
                 adapter.addData("3. 만약 핸드폰에 유튜브가 없다면? 구글 플레이스토어를 누릅니다.",ContextCompat.getDrawable(this, R.drawable.youtube1_3));
                 adapter.addData("4. 유튜브를 내려받고 유튜브 열기를 누릅니다.",ContextCompat.getDrawable(this, R.drawable.youtube1_4));
