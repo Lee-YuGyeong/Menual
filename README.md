@@ -1,1 +1,2 @@
-# android_menual
+# Menual
+### 노인들을 위한 스마트폰 사용법 제공 애플리케이션
